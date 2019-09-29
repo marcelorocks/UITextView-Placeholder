@@ -64,7 +64,7 @@
         UITextField *textField = [[UITextField alloc] init];
         textField.placeholder = @" ";
         // color = [textField valueForKeyPath:@"_placeholderLabel.textColor"];
-        color = UIColor.lightGrayColor
+        color = UIColor.lightGrayColor;
     });
     return color;
 }
